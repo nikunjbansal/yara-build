@@ -1,6 +1,11 @@
 # yara-build
 
-npm install -g serve
+sudo npm install -g serve
 
-serve -s build
+git clone https://github.com/nikunjbansal/yara-build.git
 
+cd yara-build
+
+git checkout dev
+
+serve -s .
